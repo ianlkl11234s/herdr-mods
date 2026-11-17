@@ -30,8 +30,8 @@ const en = {
   hint: "Those active in the last 24 hours are checked; they resume one at a time, 3 seconds apart.",
   resumedCount: (n) => `✓ Resumed ${n}`,
   resumingButton: "Resuming…",
-  resumeButton: (n) => `Resume ${n} checked`,
-  selectAll: "Select all",
+  resumeButton: (n) => `Resume ${n}`,
+  selectAll: "All",
   clear: "Clear",
   skip: "Skip",
   // bar: why a resume failed (shown in the panel)

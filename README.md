@@ -23,7 +23,7 @@ Read each mod's README first. **agent-restore runs `hc` and shell commands, read
 
 UI text is English by default; set the block prop `"lang": "zh-TW"` for Traditional Chinese.
 
-**Status:** agent-restore has been tested by killing one terminal's shell (how herdr-core sees a lost program), not yet through a real reboot, and its English UI has only been checked in code, not on screen. See its README for what is and isn't tested. Bug reports welcome.
+**Status:** agent-restore has been tested by killing one terminal's shell (how herdr-core sees a lost program) (in both English and Traditional Chinese), but not yet through a real reboot. See its README for what is and isn't tested. Bug reports welcome.
 
 ## License
 

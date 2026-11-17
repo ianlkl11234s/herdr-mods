@@ -133,8 +133,8 @@ this file in Herdr's home, `~/.config/herdr-app/space-groups.json`:
 - **Details:** your last message, the agent's last reply, and the full resume command with a Copy button (`pbcopy`).
 - **Checked at first:** rows active in the last 24 hours. The others are listed but not checked.
 - **Buttons:**
-  - Resume N checked;
-  - Select all;
+  - Resume N;
+  - All;
   - Clear;
   - Skip: drops the checked rows from the list and the snapshot without resuming them.
 - **When it opens by itself:** once per app run, the first time something can be resumed. Clicking the bar opens it again.
@@ -190,7 +190,6 @@ Not tested yet:
 - retrying after a failure;
 - pressing the buttons by hand;
 - a tab closed before the restart;
-- the English interface inside the app: only `herdr-app check` and a script that compares the string tables;
 - Linux.
 
 ## Known limits

@@ -56,8 +56,8 @@ Top to bottom:
        2. `Agent replied last`, the same;
        3. `Resume command`, with a small `Copy` chip (`Copied` for 1.5 s) and the command in the terminal font (`settings().font_family`, else JetBrains Mono) at 10.5 px.
 4. **Footer**, 10 px padding, 6 px gaps, `border` line above. Buttons are 28 px tall, radius 7, 12 px text.
-   - **Primary button:** `Resume N checked`, or `Resuming…` while busy. 12 px side padding, `solid` fill with `solid_foreground` text; `raised` with `dim` text when disabled.
-   - **Outlined buttons:** `Select all`, `Clear`, a spacer, then `Skip`. 10 px side padding, 1 px `border`, `foreground` text (`dim` when disabled), `hover` background.
+   - **Primary button:** `Resume N` (English; zh-TW `接回勾選的 N 個`), or `Resuming…` while busy. 12 px side padding, `solid` fill with `solid_foreground` text; `raised` with `dim` text when disabled.
+   - **Outlined buttons:** `All`, `Clear`, a spacer, then `Skip`. Keep the English labels this short: at 266 px the longer `Resume N checked` / `Select all` pushed `Skip` out of the panel. 10 px side padding, 1 px `border`, `foreground` text (`dim` when disabled), `hover` background.
 
 With `lang: "zh-TW"`, every string is the Traditional Chinese one from `strings.js`.
 
@@ -95,10 +95,10 @@ With `lang: "zh-TW"`, every string is the Traditional Chinese one from `strings.
 - **`Details ▸`:** toggles the details box.
 - **`Copy`:** puts the command on the clipboard with `pbcopy`.
 - **`×`:** `layout.hide {id: "panel"}`.
-- **`Select all`:** checks every row that is not queued or resuming.
+- **`All`:** checks every row that is not queued or resuming.
 - **`Clear`:** unchecks every row.
 - **`Skip`:** sends `agent-restore.skip:<addresses>`. The bar deletes those entries, unless one is queued.
-- **`Resume N checked`:** sends `agent-restore.resume:<addresses>` for the checked rows whose tab still exists.
+- **`Resume N`:** sends `agent-restore.resume:<addresses>` for the checked rows whose tab still exists.
 
 **Checked at first.** A row is checked the first time the list sees it, if it was active in the last 24 hours and its tab still exists.
 
