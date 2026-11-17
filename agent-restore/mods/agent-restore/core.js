@@ -7,7 +7,8 @@ export const dataDir = () => `${appHome()}/data/agent-restore`;
 export const snapPath = () => `${dataDir()}/snapshot.json`;
 export const DAY = 24 * 3600_000;
 
-// SHELLS, base() and local() are adapted from VladTemp27/herdr-mods (hibernate/core.js), Apache-2.0. See NOTICE.
+// Parts of this file (SHELLS, base(), local(), some hc ls/get calls and the terminal checks) are adapted from
+// VladTemp27/herdr-mods (hibernate/core.js), Apache-2.0. See NOTICE.
 const SHELLS = new Set(["zsh", "bash", "fish", "sh", "dash", "ksh", "tcsh", "csh", "nu", "xonsh", "pwsh", "login"]);
 export const base = (s) => String(s ?? "").split("/").pop().replace(/^-/, "");
 export const local = (address) => !String(address).includes("/");

@@ -4,8 +4,10 @@ Licensed under the MIT License (see LICENSE).
 
 Third-party code:
 
-- agent-restore/mods/agent-restore/core.js: the SHELLS set and the base() and
-  local() helpers are adapted from VladTemp27/herdr-mods, hibernate/core.js
+- agent-restore/mods/agent-restore/core.js: parts of this file (the SHELLS set,
+  the base() and local() helpers, some hc ls / hc get calls and the shape of
+  the terminal and shell checks) are adapted from VladTemp27/herdr-mods,
+  hibernate/core.js
   (https://github.com/VladTemp27/herdr-mods), Copyright 2026 VladTemp27,
   licensed under the Apache License, Version 2.0 (see LICENSES/Apache-2.0.txt).
 
