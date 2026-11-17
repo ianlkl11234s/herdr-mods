@@ -1,0 +1,21 @@
+herdr-mods
+Copyright 2026 ianlkl11234s
+Licensed under the MIT License (see LICENSE).
+
+Third-party code:
+
+- agent-restore/mods/agent-restore/core.js: the SHELLS set and the base() and
+  local() helpers are adapted from VladTemp27/herdr-mods, hibernate/core.js
+  (https://github.com/VladTemp27/herdr-mods), Copyright 2026 VladTemp27,
+  licensed under the Apache License, Version 2.0 (see LICENSES/Apache-2.0.txt).
+
+- agent-restore/mods/agent-restore/core.js: quote() follows the shell-quoting
+  pattern used in Herdr Desktop's shipped mods
+  (https://github.com/herdrdev/herdr-app), licensed under the Apache License,
+  Version 2.0 (see LICENSES/Apache-2.0.txt).
+
+Inspiration only, no code copied:
+
+- aquarium was inspired by the Woolhill mod by adamentwistle (herdr.dev/mods).
+- agent-restore's restore flow was informed by cmux's session restore and by
+  matthewjfberry/herdr-claude-resume (MIT).
